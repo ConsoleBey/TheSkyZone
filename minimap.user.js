@@ -6,9 +6,9 @@
 // @author       ConsoleBey https://discord.gg/Tj3h8en
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
-// @homepage     https://github.com/pixelfixinit/TurkeyMap/
-// @updateURL    https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
+// @homepage     https://github.com/ConsoleBey/TheSkyZone/
+// @updateURL    https://raw.githubusercontent.com/ConsoleBey/TheSkyZone/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/ConsoleBey/TheSkyZone/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/ConsoleBey/TheSkyZone/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
